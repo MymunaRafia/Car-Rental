@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Car Rental Form</title>
+    <link rel = "stylesheet" href="mystyle.css">
+</head>
+<body>   
+<h2>Car Rental Booking Form</h2>
+    <form action="process_form.php" method="post">        
+    <div>
+        <label for="name">Full Name:</label><br>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <label for="email">Email Address:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="phone">Phone Number:</label><br>
+        <input type="tel" id="phone" name="phone" required>
+        <small>Format: 1234567890</small><br><br>
+
+        <label for="car">Select Car:</label><br>
+        <select id="car" name="car" required>
+            <option value="">-- Select --</option>
+            <option value="sedan">Sedan</option>
+            <option value="suv">SUV</option>
+            <option value="hatchback">Hatchback</option>
+        </select><br><br>
+
+        <label for="date">Rental Date:</label><br>
+        <input type="date" id="date" name="date" required><br><br>
+        </div> 
+        <legend><h1>Create Password</h1></legend>
+            <div>
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" ><br><br>
+           
+                <label for="confirm_password">Confirm Password:</label>
+                <input type="password" id="confirm_password" name="confirm_password" ></td>        
+         </div>
+        <button>
+        <input type="submit" value="Book Now">
+        </button>
+    </form>
+</body>
+</html>
