@@ -16,14 +16,15 @@
 
         <label for="phone">Phone Number:</label><br>
         <input type="tel" id="phone" name="phone" required>
-        <small>Format: 1234567890</small><br><br>
+        <small>Format: 123456789</small><br><br>
 
         <label for="car">Select Car:</label><br>
         <select id="car" name="car" required>
             <option value="">-- Select --</option>
-            <option value="sedan">Sedan</option>
+            <option value="Toyota">Toyota</option>
             <option value="suv">SUV</option>
-            <option value="hatchback">Hatchback</option>
+            <option value="Mercedes">Mercedes</option>
+            <option value="RollsRoyce">Rolls-Royce</option>
         </select><br><br>
 
         <label for="date">Rental Date:</label><br>
