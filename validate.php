@@ -24,8 +24,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     if (empty($car)) {
         $errors[] = "Please select a car.";
     }
-
-    if (empty($date) || strtotime($date) < strtotime(date("Y-m-d"))) {
-        $errors[] = "Please select a valid rental date.";
-    } 
+if (empty($date) || $date < date("Y-m-d")) {
+    $errors[] = "Please select a valid rental date.";
+}
 ?>
