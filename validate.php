@@ -18,7 +18,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     }
 
     if (!preg_match('/^[0-9]{9}$/', $phone)) {
-        $errors[] = "Phone must be 10 digits.";
+        $errors[] = "Phone must be 9 digits.";
     }
 
     if (empty($car)) {
