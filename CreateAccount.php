@@ -33,10 +33,10 @@
         <legend><h1>Create Password</h1></legend>
             <div>
                 <label for="password">Password:</label>
-                <input type="password" id="password" name="password" ><br><br>
+                <input type="password" id="password" name="password" required ><br><br>
            
                 <label for="confirm_password">Confirm Password:</label>
-                <input type="password" id="confirm_password" name="confirm_password" ></td>        
+                <input type="password" id="confirm_password" name="confirm_password" required ></td>        
          </div>
         <button>
         <input type="submit" value="Book Now">
