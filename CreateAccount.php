@@ -6,7 +6,7 @@
 </head>
 <body>   
 <h2>Car Rental Booking Form</h2>
-    <form action="process_form.php" method="post">        
+    <form action="CreateAccount.php" method="post">        
     <div>
         <label for="name">Full Name:</label><br>
         <input type="text" id="name" name="name" required><br><br>
