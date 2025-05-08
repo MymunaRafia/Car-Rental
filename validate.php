@@ -17,7 +17,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $errors[] = "Invalid email format.";
     }
 
-    if (!preg_match('/^[0-9]{10}$/', $phone)) {
+    if (!preg_match('/^[0-9]{9}$/', $phone)) {
         $errors[] = "Phone must be 10 digits.";
     }
 
