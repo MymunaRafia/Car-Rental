@@ -1,3 +1,6 @@
+<?php
+include 'validate.php';
+?>
 <!DOCTYPE html>
 <html>
 <head>
